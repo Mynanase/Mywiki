@@ -1,3 +1,4 @@
 title: $:/config/FileSystemPaths
 
+
 [in-tagtree-of[public]]:and[search-replace:g[/],[_]search-replace:g[:],[_]addprefix[/]addprefix[wiki]addprefix[/]addprefix[subwiki]]
