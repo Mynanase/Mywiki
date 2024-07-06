@@ -1,0 +1,17 @@
+created: 20240706041529831
+creator: Kosmos
+modified: 20240706044339603
+modifier: Kosmos
+tags: TiddlyWiki使用方法
+title: Tiddlywiki初始化配置
+
+! tiddlygit 太记
+* 首先在官网下载好 [[https://tiddly-gittly.github.io/TidGi-Official-Website/#:Index]]
+
+* 登录 GitHub 获取 `Token`
+[img[image.png]]
+
+* 创建本地 Wiki 和 本地子 Wiki
+[img[github.png]]
+
+
