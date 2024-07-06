@@ -1,0 +1,12 @@
+caption: {{$:/language/codemirror6/onedark/caption}}
+caption-zh: {{$:/language/codemirror6/zh/onedark/caption}}
+created: 20240706080436839
+creator: Kosmos
+description: {{$:/language/codemirror6/onedark/description}}
+description-zh: {{$:/language/codemirror6/zh/onedark/description}}
+modified: 20240706080437404
+modifier: Kosmos
+settings-template: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/onedark
+
+yes

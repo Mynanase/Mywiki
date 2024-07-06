@@ -1,0 +1,12 @@
+caption: {{$:/language/codemirror6/wordCount/caption}}
+caption-zh: {{$:/language/codemirror6/zh/wordCount/caption}}
+created: 20240706080445968
+creator: Kosmos
+description: {{$:/language/codemirror6/wordCount/description}}
+description-zh: {{$:/language/codemirror6/zh/wordCount/description}}
+modified: 20240706080445968
+modifier: Kosmos
+settings-template: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/wordCount
+
+yes

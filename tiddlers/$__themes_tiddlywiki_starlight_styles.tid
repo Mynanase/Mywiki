@@ -1,0 +1,19 @@
+created: 20240706083549363
+creator: Kosmos
+modified: 20240706083927421
+modifier: Kosmos
+tags: $:/tags/Stylesheet
+title: $:/themes/tiddlywiki/starlight/styles.tid
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+
+/*
+Placeholder for a more thorough refinement of Snow White
+*/
+
+@font-face {
+	font-family: "Arvo";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Arvo"), url(<<datauri "$:/themes/tiddlywiki/starlight/arvo.woff">>) format("woff");
+}
