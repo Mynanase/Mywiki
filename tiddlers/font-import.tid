@@ -1,0 +1,13 @@
+created: 20240706071423365
+creator: Kosmos
+modified: 20240706075641363
+modifier: Kosmos
+tags: Inconsolata-Regular.woff2 $:/tags/Stylesheet
+title: font-import
+
+@font-face {
+	font-family: "Inconsolata";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Inconsolata"), url(<<datauri "Inconsolata-Regular.woff2">>) format("woff2");
+}

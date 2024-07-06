@@ -1,0 +1,10 @@
+caption: {{$:/language/codemirror6/fontFamily/caption}}
+caption-zh: {{$:/language/codemirror6/zh/fontFamily/caption}}
+created: 20240706071619854
+creator: Kosmos
+description: {{$:/language/codemirror6/fontFamily/description}}
+description-zh: {{$:/language/codemirror6/zh/fontFamily/description}}
+modified: 20240706073851185
+modifier: Kosmos
+settings-template: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/templates/settings/input
+title: $:/config/codemirror-6/fontFamily
