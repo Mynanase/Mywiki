@@ -1,14 +1,11 @@
 created: 20240706041529831
 creator: Kosmos
-modified: 20240706062025634
+modified: 20240706062027760
 modifier: Kosmos
 tags: TiddlyWiki使用方法
 title: Tiddlywiki初始化配置
-wysiwyg: yes
 
 ! tiddlygit 太记
-
-!! 
 
 * 首先在官网下载好 [ext[https://tiddly-gittly.github.io/TidGi-Official-Website/#:Index]]
 * 登录 GitHub 获取 `Token`
