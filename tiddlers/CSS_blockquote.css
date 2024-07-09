@@ -3,7 +3,7 @@ blockquote {
 	font-style: italic;
 	font-size: 1.05rem;
 	line-height: 1.5;
-  border-left: 4px solid #37352f;
+  border-left: 4px solid #37352f !important;
   padding: .4rem 0rem .4rem 1.2rem;
   margin-left: 0;
 	margin-right: 0;

@@ -1,0 +1,12 @@
+{
+    "title": "编辑器字体CSS",
+    "created": "20240706082621048",
+    "creator": "Kosmos",
+    "modified": "20240706083804124",
+    "modifier": "Kosmos",
+    "tags": "$:/tags/Stylesheet",
+    "version": "",
+    "text": ".tc-edit-texteditor-body {\r\n\tfont-size: 15px;\r\n  line-height: 22px;\r\n}\r\n",
+    "revision": "0",
+    "bag": "default"
+}

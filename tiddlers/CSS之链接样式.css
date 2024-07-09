@@ -3,7 +3,7 @@ a.tc-tiddlylink{
 	font-size: 0.95rem;
 	font-weight: normal;
 	line-height: 1.5;
-	color: #4779fb;
+	color: #4779fb !important;
 	border-bottom: 1px solid #2a4895;
 }
 
