@@ -1,0 +1,47 @@
+a.tc-tiddlylink{
+	font-family: var(--mono-font);
+	font-size: 0.95rem;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #4779fb;
+	border-bottom: 1px solid #2a4895;
+}
+
+a.tc-tiddlylink:hover {
+	line-height: 1.5;
+	opacity: 0.8;
+	color: #3c67d4;
+	border-bottom: 1px solid #2e4ea1;
+	transition: background 120ms ease-in 0s;
+}
+
+/* 外部链接 */
+a.tc-tiddlylink-external {
+	font-family: var(--mono-font);
+	font-size: 0.95rem;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #4779fb;
+	border-bottom: 1px solid #2a4895;
+}
+
+a.tc-tiddlylink-external:visited {
+	opacity: 0.8;
+	font-family: var(--mono-font);
+	font-size: 0.95rem;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #4779fb;
+	border-bottom: 1px solid #2a4895;
+	transition: background 120ms ease-in 0s;
+}
+
+a.tc-tiddlylink-external:hover {
+	font-family: var(--mono-font);
+	font-size: 0.95rem;
+	line-height: 1.5;
+	opacity: 0.8;
+	color: #3c67d4;
+	border-bottom: 1px solid #2e4ea1;
+	transition: background 120ms ease-in 0s;
+}
