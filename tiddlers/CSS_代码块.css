@@ -1,0 +1,29 @@
+pre {
+	font-family: var(--mono-font);
+	background-color: #f7f6f3;
+	border: none;
+	padding: .4rem .4rem .4rem .8rem;
+	border-radius: 3px;
+}
+
+.hljs {
+	background-color: #f7f6f3;
+	border: none;
+	box-shadow: none;
+}
+
+pre code.hljs {
+	padding: .4rem .4rem .4rem .8rem;
+}
+
+code {
+  font-family: var(--mono-font);
+	font-size: 0.95rem;
+	line-height: 1.4;
+}
+
+p > code {
+	padding: .15rem .25rem .15rem;
+	border-radius: .15rem;
+	background: #f7f6f3;
+}

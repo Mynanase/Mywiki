@@ -1,0 +1,20 @@
+created: 20240709165109343
+creator: Kosmos
+description: create a new empty tiddler
+modified: 20240709165115080
+modifier: Kosmos
+tags: $:/tags/Actions
+title: $:/core/ui/Actions/new-tiddler
+
+\define get-tags() $(textFieldTags)$ $(tagsFieldTags)$
+\whitespace trim
+<$vars tiddlerTitleTemplate={{$:/language/DefaultNewTiddlerTitle}} textFieldTags={{$:/config/NewTiddler/Tags}} tagsFieldTags={{$:/config/NewTiddler/Tags!!tags}}>
+<$wikify name="tiddlerTitle" text="<$macrocall $name='now' format=<<tiddlerTitleTemplate>>/>">
+<$reveal type="nomatch" state=<<tiddlerTitle>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<tiddlerTitle>> tags=<<get-tags>>/>
+</$reveal>
+<$reveal type="match" state=<<tiddlerTitle>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<tiddlerTitle>> tags=<<get-tags>>/>
+</$reveal>
+</$wikify>
+</$vars>

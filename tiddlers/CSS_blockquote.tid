@@ -1,0 +1,20 @@
+created: 20240709175802027
+creator: Kosmos
+modified: 20240709180034506
+modifier: Kosmos
+tags: CSS样式 $:/tags/Stylesheet
+title: CSS:blockquote
+
+blockquote {
+  border-left: 4px solid #37352f;
+  padding-left: 1em;
+  margin-left: 0;
+  color: var(--blockquote-text-color, #666666);
+  font-style: italic;
+}
+
+
+blockquote > div {
+    margin-top: .1em;
+    margin-bottom: .1em;
+}
