@@ -1,0 +1,11 @@
+{
+    "title": "starlight-style",
+    "created": "20240706083554360",
+    "creator": "Kosmos",
+    "modified": "20240706084024600",
+    "modifier": "Kosmos",
+    "tags": "$:/tags/Stylesheet",
+    "text": "html body, .tc-sidebar-scrollable-backdrop {\r\n\tfont-family: ;\r\n}\n\n.tc-page-controls svg {\r\n\t<<filter \"drop-shadow(1px 1px 2px rgba(255,255,255,0.9))\">>\r\n}",
+    "revision": "0",
+    "bag": "default"
+}
