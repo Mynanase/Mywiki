@@ -1,8 +1,14 @@
 created: 20240710134519734
 creator: Kosmos
-modified: 20240710134608671
+modified: 20240710150125800
 modifier: Kosmos
 tags: [[配置 Rime 输入法]] 任务
 title: 关于 Android 端
 tmo_priority: High
 tmo_taskState: New
+
+Android 端使用的是 [[Trime「同文输入法」|https://github.com/osfans/trime]]。配置文件与 PC 端共享，所以只需要将配置文件同步至手机即可。
+
+比较稳妥的方式是用坚果云「WebDav」，配合 Android 上的同步工具--免费版的 FolderSync 同步配置文件。
+
+Trime 默认的主题方案非常不美观，可在设置进行更换。

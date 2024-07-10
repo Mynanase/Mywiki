@@ -1,15 +1,14 @@
 a.tc-tiddlylink{
 	font-family: var(--mono-font);
-	font-size: 0.95rem;
+	font-size: 0.9rem;
 	font-weight: normal;
 	line-height: 1.5;
-	color: #4779fb !important;
-	border-bottom: 1px solid #2a4895;
+	color: #3c67d4 !important;
+	border-bottom: none;
 }
 
 a.tc-tiddlylink:hover {
 	line-height: 1.5;
-	opacity: 0.8;
 	color: #3c67d4;
 	border-bottom: 1px solid #2e4ea1;
 	transition: background 120ms ease-in 0s;
@@ -21,8 +20,8 @@ a.tc-tiddlylink-external {
 	font-size: 0.95rem;
 	font-weight: normal;
 	line-height: 1.5;
-	color: #4779fb;
-	border-bottom: 1px solid #2a4895;
+	color: #3c67d4;
+	border-bottom: none;
 }
 
 /* 悬停的外部链接 */
