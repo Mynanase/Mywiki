@@ -27,11 +27,12 @@ a.tc-tiddlylink-external {
 
 /* 悬停的外部链接 */
 a.tc-tiddlylink-external:hover {
-	opacity: 0.8; /* 如果你想在悬停时改变透明度，可以保留 */
+	opacity: 0.8;
 	color: #3c67d4;
 	border-bottom: 1px solid #2e4ea1;
 	font-weight: bold;
 	text-decoration: none;
 	background-image: none;
 	background-clip: none;
+	-webkit-text-fill-color: #3c67d4;
 }

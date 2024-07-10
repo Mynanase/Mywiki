@@ -8,7 +8,7 @@
 /* 段落 */
 .tc-tiddler-body p {
 	font-family: var(--text-font);
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 	font-size: 1rem;
 	line-height: 1.6;
 }
