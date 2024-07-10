@@ -1,0 +1,19 @@
+caption: ITKG
+created: 20240710034330782
+creator: Kosmos
+modified: 20240710034332178
+modifier: Kosmos
+tags: $:/tags/ControlPanel/SettingsTab $:/tags/SideBar
+title: $:/plugins/linonetwo/intention-tower-knowledge-graph/ControlPanel/Settings
+
+
+
+<!-- 改成可config来控制，避免出现无法更新内容的情况 -->
+<!-- 删除了原来定义的checkbox宏 -->
+<!-- These settings let you customise the behaviour of intention-tower-knowledge-graph plugin. -->
+
+这些设置让你可以自定义 ITKG 插件。
+
+---
+
+<<tabs "[all[shadows+tiddlers]tag[$:/tags/intention-tower-knowledge-graph/Settings]sort[order]]" "$:/plugins/linonetwo/intention-tower-knowledge-graph/Settings/Tags" "$:/state/tab/intention-tower-knowledge-graph/Settings" "tc-vertical">>

@@ -1,0 +1,58 @@
+caption: <<lingo Tags $:/plugins/linonetwo/intention-tower-knowledge-graph/language/>>
+created: 20240710034348211
+creator: Kosmos
+modified: 20240710034349452
+modifier: Kosmos
+order: 1
+tags: $:/tags/intention-tower-knowledge-graph/Settings $:/tags/SideBar
+title: $:/plugins/linonetwo/intention-tower-knowledge-graph/Settings/Tags
+
+\procedure lingo-base() $:/plugins/linonetwo/intention-tower-knowledge-graph/language/
+\define single-text-tag-editor(typeName)
+\whitespace trim
+<div class="itkg-setting-tags-item">
+  <$let
+    currentTiddler="$:/plugins/linonetwo/intention-tower-knowledge-graph/Config/$typeName$-tag"
+    palette={{$:/palette}}
+    tempTitle=<<qualify "edit-$typeName$">>
+    tabIndex={{$:/config/EditTabIndex}}
+    cancelPopups="yes"
+  >
+    <$macrocall $name="tag" tag={{$:/plugins/linonetwo/intention-tower-knowledge-graph/Config/$typeName$-tag}} />
+
+    <$edit-text tiddler=<<tempTitle>> tag="input" field="text" placeholder={{$:/language/EditTemplate/Tags/Add/Placeholder}} />
+
+    <$button>
+      <$action-setfield tiddler=<<currentTiddler>> text={{{ [<tempTitle>get[text]] }}}>
+        <$action-setfield tiddler=<<tempTitle>> text="" />
+      </$action-setfield>
+
+      {{$:/language/EditTemplate/Tags/Add/Button}}
+    </$button>
+    
+  </$let> 
+</div>
+\end
+
+
+!! <<lingo Tags>>
+
+!!! 标注项目关键节点的标签
+
+
+;<<lingo Intention>>
+:<<single-text-tag-editor intention>>
+;<<lingo Project>>
+:<<single-text-tag-editor project>>
+;<<lingo Task>>
+:<<single-text-tag-editor task>>
+
+<<lingo Configs/AfterModifyTaskTag>>
+
+!!! <<lingo Configs/DefaultTagForCalendar>>
+
+在新建和一个任务相关的日历项目时，可以设置自动添加日历项目的类型标签，例如「解决问题」。
+
+日历记录额外标签：<<single-text-tag-editor default-calendar-entry>>
+
+你可以通过超级标签里的「<<TraitTag/CalendarDefaultTag/Title>>」定制仅在当前条目上生效的默认标签。
