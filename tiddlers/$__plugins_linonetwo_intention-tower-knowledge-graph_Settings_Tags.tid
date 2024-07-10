@@ -1,10 +1,10 @@
 caption: <<lingo Tags $:/plugins/linonetwo/intention-tower-knowledge-graph/language/>>
 created: 20240710034348211
 creator: Kosmos
-modified: 20240710034349452
+modified: 20240710054331746
 modifier: Kosmos
 order: 1
-tags: $:/tags/intention-tower-knowledge-graph/Settings $:/tags/SideBar
+tags: $:/tags/intention-tower-knowledge-graph/Settings
 title: $:/plugins/linonetwo/intention-tower-knowledge-graph/Settings/Tags
 
 \procedure lingo-base() $:/plugins/linonetwo/intention-tower-knowledge-graph/language/

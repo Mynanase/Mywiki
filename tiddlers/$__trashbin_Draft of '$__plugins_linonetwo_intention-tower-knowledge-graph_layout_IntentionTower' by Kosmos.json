@@ -1,0 +1,8 @@
+{
+    "text": "\\import [[$:/plugins/linonetwo/intention-tower-knowledge-graph/filters/leaf-task]] [[$:/plugins/linonetwo/intention-tower-knowledge-graph/EditTemplate/title]] [[$:/plugins/linonetwo/intention-tower-knowledge-graph/Components/Buttons]]\n\n\\define project-list-item()\n\\whitespace trim\n<div class=\"itkg-project-list-item\">\n  <$link to=<<currentTiddler>> tooltip=<<currentTiddler>>>\n    <<currentTiddler>>\n  </$link>\n</div>\n\\end\n\n\\define project-list()\n\\whitespace trim\n<div class=\"itkg-project-list\">\n  <$list\n    filter=\"[{$:/plugins/linonetwo/intention-tower-knowledge-graph/Config/project-tag}] +[tagging[]filter<filter-is-new-task>] :and[filter<has-length>unique[]!sortsub:integer<compareByPriority>]\"\n  >\n    <<project-list-item>>\n  </$list>\n</div>\n\\end\n\n\n<$scrollable fallthrough=\"none\" class=\"itkg-IntentionTower-top-container tc-popup-keep tc-menubar-dropdown-sidebar\">\n\n  <div class=\"itkg-create-task\">\n\n    <<simple-title-edit \"$:/state/ITKG/PageLayout/create-tiddler-title\" >>\n\n  </div>\n\n  <div class=\"itkg-intention-tower-buttons\">\n    <<back-to-default-layout-button>>\n    <<create-task-without-parent>>\n    <<create-project-without-parent>>\n    <<create-intention-without-parent>>\n  </div>\n\n  <<project-list>>\n\n</$scrollable>\n\n{{$:/plugins/linonetwo/intention-tower-knowledge-graph/ViewTemplate/ProjectsOverview}}\n",
+    "title": "Draft of '$:/plugins/linonetwo/intention-tower-knowledge-graph/layout/IntentionTower' by Kosmos",
+    "draft.title": "$:/plugins/linonetwo/intention-tower-knowledge-graph/layout/IntentionTower",
+    "draft.of": "$:/plugins/linonetwo/intention-tower-knowledge-graph/layout/IntentionTower",
+    "modified": "20240710053813347",
+    "modifier": "Kosmos"
+}

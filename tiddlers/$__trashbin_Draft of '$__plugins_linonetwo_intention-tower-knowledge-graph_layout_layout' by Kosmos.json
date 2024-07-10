@@ -1,0 +1,14 @@
+{
+    "text": "\\whitespace trim\n\\import [subfilter{$:/core/config/GlobalImportFilter}]\n\\define containerClasses()\ntc-page-container tc-language-$(languageTitle)$ intention-tower-knowledge-graph-container\n\\end\n\n\\procedure redirected-navigate-actions()\n  <$action-setfield $tiddler=\"$:/layout\" text=\"\" />\n  <$action-navigate $to=<<event-navigateTo>> />\n\\end\n\n<$navigator story=\"$:/StoryList\" history=\"$:/HistoryList\" openLinkFromInsideRiver={{$:/config/Navigation/openLinkFromInsideRiver}} openLinkFromOutsideRiver={{$:/config/Navigation/openLinkFromOutsideRiver}} relinkOnRename={{$:/config/RelinkOnRename}}>\n\t<$messagecatcher $tm-navigate=<<redirected-navigate-actions>>>\n\t\t{{$:/core/ui/CommandPaletteTemplate}}\n\t\t<div class=<<containerClasses>>>\n\t\t\t{{$:/plugins/linonetwo/intention-tower-knowledge-graph/layout/IntentionTower}}\n\t\t</div>\n\t</$messagecatcher>\n</$navigator>",
+    "created": "20240710053526776",
+    "creator": "Kosmos",
+    "title": "Draft of '$:/plugins/linonetwo/intention-tower-knowledge-graph/layout/layout' by Kosmos",
+    "name": "<<lingo ShortName $:/plugins/linonetwo/intention-tower-knowledge-graph/language/>>",
+    "icon": "$:/plugins/linonetwo/intention-tower-knowledge-graph/icons/tower",
+    "description": "<<lingo Description $:/plugins/linonetwo/intention-tower-knowledge-graph/language/>>",
+    "tags": "$:/tags/Layout",
+    "modified": "20240710053529284",
+    "modifier": "Kosmos",
+    "draft.title": "$:/plugins/linonetwo/intention-tower-knowledge-graph/layout/layout",
+    "draft.of": "$:/plugins/linonetwo/intention-tower-knowledge-graph/layout/layout"
+}
