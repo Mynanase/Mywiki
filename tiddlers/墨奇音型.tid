@@ -1,9 +1,11 @@
 created: 20240711110433939
 creator: Kosmos
-modified: 20240711113222146
+modified: 20240711135049624
 modifier: Kosmos
-tags: [[配置 Rime 输入法]] ?
+tags: [[配置 Rime 输入法]] ? 任务
 title: 墨奇音型
+tmo_actualStartTime: 20240711135049624
+tmo_taskState: Running
 
 > 墨奇音型是一个基于字形描述信息、递归拆分至最小字形，最后取首末双型字拖的方案。
 

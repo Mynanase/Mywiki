@@ -6,14 +6,15 @@ due: 20240717070342292
 elapsed_days: 0
 lapses: 0
 last_review: 20240711070342292
-modified: 20240710110509375
+modified: 20240711134952893
 modifier: Kosmos
 reps: 1
 scheduled_days: 6
 stability: 5.8
 state: 2
-tags: 项目 任务
+tags: 任务
 title: 配置 Rime 输入法
+tmo_priority: Medium
 tmo_taskState: Running
 
 我准备配置一个多平台、多语言的输入法。并且中文采用双拼的方案。
