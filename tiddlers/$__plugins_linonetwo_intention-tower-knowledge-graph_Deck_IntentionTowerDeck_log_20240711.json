@@ -3,5 +3,20 @@
     "070342992": "{\"rating\":4,\"elapsed_days\":0,\"scheduled_days\":6,\"review\":\"20240711070342292\",\"state\":0}",
     "070345802": "{\"rating\":4,\"elapsed_days\":0,\"scheduled_days\":6,\"review\":\"20240711070343073\",\"state\":0}",
     "070349923": "{\"rating\":4,\"elapsed_days\":0,\"scheduled_days\":6,\"review\":\"20240711070347887\",\"state\":0}",
-    "070400727": "{\"rating\":4,\"elapsed_days\":0,\"scheduled_days\":6,\"review\":\"20240711070359215\",\"state\":0}"
+    "070400727": "{\"rating\":4,\"elapsed_days\":0,\"scheduled_days\":6,\"review\":\"20240711070359215\",\"state\":0}",
+    "075747573": "{\"rating\":4,\"elapsed_days\":0,\"scheduled_days\":6,\"review\":\"20240711075744918\",\"state\":0}",
+    "075800727": "{\"rating\":4,\"elapsed_days\":0,\"scheduled_days\":6,\"review\":\"20240711075758069\",\"state\":0}",
+    "075912981": "{\"rating\":2,\"elapsed_days\":1.0608205902777779,\"scheduled_days\":0,\"review\":\"20240711075912979\",\"state\":1}",
+    "075914285": "{\"rating\":2,\"elapsed_days\":1.060790636574074,\"scheduled_days\":0,\"review\":\"20240711075914281\",\"state\":1}",
+    "075915164": "{\"rating\":3,\"elapsed_days\":1.0607869097222222,\"scheduled_days\":1,\"review\":\"20240711075915161\",\"state\":1}",
+    "075915656": "{\"rating\":4,\"elapsed_days\":1.0608838425925926,\"scheduled_days\":2,\"review\":\"20240711075915654\",\"state\":1}",
+    "075916360": "{\"rating\":4,\"elapsed_days\":1.0608375925925926,\"scheduled_days\":2,\"review\":\"20240711075916358\",\"state\":1}",
+    "075917796": "{\"rating\":4,\"elapsed_days\":1.0608384722222222,\"scheduled_days\":2,\"review\":\"20240711075917794\",\"state\":1}",
+    "075919579": "{\"rating\":4,\"elapsed_days\":1.0608446412037038,\"scheduled_days\":2,\"review\":\"20240711075919577\",\"state\":1}",
+    "075920391": "{\"rating\":3,\"elapsed_days\":0,\"scheduled_days\":0,\"review\":\"20240711075920389\",\"state\":0}",
+    "075920534": "{\"rating\":3,\"elapsed_days\":0.0000016550925925925926,\"scheduled_days\":2,\"review\":\"20240711075920531\",\"state\":1}",
+    "080233430": "{\"rating\":1,\"elapsed_days\":0,\"scheduled_days\":0,\"review\":\"20240711080233427\",\"state\":0}",
+    "080345689": "{\"rating\":4,\"elapsed_days\":0,\"scheduled_days\":6,\"review\":\"20240711080345687\",\"state\":0}",
+    "080400273": "{\"rating\":3,\"elapsed_days\":0,\"scheduled_days\":0,\"review\":\"20240711080400271\",\"state\":0}",
+    "080406283": "{\"rating\":3,\"elapsed_days\":0.001074699074074074,\"scheduled_days\":1,\"review\":\"20240711080406282\",\"state\":1}"
 }
