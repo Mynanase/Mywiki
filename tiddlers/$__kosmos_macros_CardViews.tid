@@ -1,0 +1,74 @@
+created: 20240711163107861
+creator: Kosmos
+modified: 20240711171957623
+modifier: Kosmos
+tags: macrocall $:/tags/Global $:/tags/Stylesheet
+title: $:/kosmos/macros/CardViews
+
+\define filteredCards(filter:"[tag[任务]]" limit:"10" columns:"2")
+<div class="card-grid" style="grid-template-columns: repeat($columns$, 1fr);">
+<$list filter="$filter$ +[!sort[created]limit[$limit$]]">
+<div class="custom-card">
+  <h3><$link to={{!!title}}><$view field="title"/></$link></h3>
+  <div class="card-author">
+    <$list filter="[<currentTiddler>has[creator]]" variable="ignore">
+      作者: <$view field="creator"/>
+    </$list>
+  </div>
+  <div class="card-tags">
+    <$list filter="[is[current]tags[]]">
+      <span class="card-tag"><$text text=<<currentTiddler>>/></span>
+    </$list>
+  </div>
+</div>
+</$list>
+</div>
+\end
+
+<style>
+.card-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.custom-card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.custom-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.card-author {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.card-tags {
+  margin-bottom: 8px;
+}
+
+.card-tag {
+  background-color: #e0e0e0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+
+.card-excerpt {
+  font-size: 0.9em;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
