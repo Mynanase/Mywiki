@@ -1,0 +1,13 @@
+created: 20240711103954626
+creator: Kosmos
+modified: 20240711105606428
+modifier: Kosmos
+tags: ?
+title: 小企鹅输入法配置方法
+
+项目主页：[[https://jenkins.fcitx-im.org/job/android/]]
+
+* 下载更新器 `fcitx5-android-updater`。
+* 用更新器下载输入法主体 `fcitx5-android` 和 `fcitx5-android-plugin-rime`。
+* 导入 rime 配置文件。（但是我的手机「Oneplus 9R」无法进入应用`data`文件夹，需要[[使用 shizuku]]获得权限。
+* 更换主题……
