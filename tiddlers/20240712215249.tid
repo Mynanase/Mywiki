@@ -1,0 +1,15 @@
+created: 20240712135249192
+creator: Kosmos
+modified: 20240712140323749
+modifier: Kosmos
+tags: ? windows
+title: 20240712215249
+
+windows 使用 `mklink` 创建软连接
+
+```bash
+mklink \D "PathA\YourName" "PathB\FolderName"
+```
+
+# `\D` 表示创建一个目录的符号链接
+# 这会在 `PathA` 创建一个软链接 `YourName` 指向 `PathB\FolderName`
