@@ -1,0 +1,20 @@
+annotate-colour: dodgerblue
+created: 20240712141401350
+creator: Kosmos
+difficulty: 3.9899999999999998
+due: 20240718143141970
+elapsed_days: 0
+lapses: 0
+last_review: 20240712143141970
+modified: 20240712143141344
+modifier: Kosmos
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: ? TiddlyWiki
+title: 20240712221401
+
+!! 全局宏和全局样式的定义
+
+在 TiddlyWiki 中，要想定义的宏在全局生效，需要添加 <<C `$:/tags/Global`>> 标签；同理，使定义的 CSS 样式生效，需添加 <<C `$:/tags/Stylesheet`>> 标签。

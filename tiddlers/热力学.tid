@@ -6,13 +6,13 @@ due: 20240711084721544
 elapsed_days: 0.02996023148148148
 lapses: 0
 last_review: 20240711084221544
-modified: 20240710055740773
+modified: 20240712142729232
 modifier: Kosmos
 reps: 3
 scheduled_days: 0
 stability: 0.4
 state: 1
-tags: 统计物理 任务
+tags: 统计物理 任务 !
 title: 热力学
 tmo_priority: High
 tmo_taskState: New
