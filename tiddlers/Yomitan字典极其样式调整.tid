@@ -1,6 +1,6 @@
 created: 20240720164408587
 creator: Kosmos
-modified: 20240720184210798
+modified: 20240720184705582
 modifier: Kosmos
 tags: [[日语学习 Anki 配置]] ?
 title: Yomitan字典极其样式调整
@@ -103,3 +103,7 @@ div[data-sc-data_orgtag="subheadword"][data-sc-type="複合語"]::before
     margin-right: 0.5em;
 }
 ```
+
+!! 与 Anki 联动
+
+直接将样式复制到 Anki 的样式部分即可。但是注意，如果有些样式不起作用，试着删除 `.xxx`， 例如 `.gloss-sc-span[data-sc-tag="h3"] { }` 修改为 `[data-sc-tag="h3"] { }`。
