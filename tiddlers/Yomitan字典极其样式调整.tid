@@ -1,6 +1,6 @@
 created: 20240720164408587
 creator: Kosmos
-modified: 20240720182324777
+modified: 20240720184210798
 modifier: Kosmos
 tags: [[日语学习 Anki 配置]] ?
 title: Yomitan字典极其样式调整
@@ -44,9 +44,9 @@ ruby:hover rt {
 
 经过我模仿官方样式得到效果如下：
 
-[img width="75%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407210213841.png]]
+[img width="50%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407210213841.png]]
 
-红框由如下样式定义，其中两部分的间距是通过 `padding-left = 0.5em`，在左侧设置了一个空格宽度
+红框由如下样式定义，其中两部分的间距是通过 `padding-left = 0.5em` 在其左侧设置了一个空格宽度
 
 ```css
 .gloss-sc-span[data-sc-tag="h3"] { }
@@ -82,15 +82,24 @@ ruby:hover rt {
 ```css
 [data-sc-tag="ja_cn"] { }
 ```
+「慣用句」、「複合語」的样式也可定义，这里以「複合語」为例。
 
+[img width="60%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407210225391.png]]
 
+其中黑体字是复合词的解释。选择器是
 
+```css
+div[data-sc-data_orgtag="subheadword"][data-sc-type="複合語"]::before
+```
 
+你可以为其设置字体颜色，字体大小等。如果希望解释「类型是 `meaning`」和绿字在同一行，那么需要将其的 `display` 属性由 `block` 修改为 `inline-block`。
 
+[img width="50%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407210237483.png]]
 
+另外，这里的空格由下属代码实现：
 
-
-
-
-
-
+```css
+.gloss-sc-div[data-sc-type="複合語"]>.gloss-sc-span[data-sc-data_orgtag="meaning"]>.gloss-sc-span[data-sc-tag="b"] {
+    margin-right: 0.5em;
+}
+```
