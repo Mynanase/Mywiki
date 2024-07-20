@@ -1,0 +1,96 @@
+created: 20240720164408587
+creator: Kosmos
+modified: 20240720182324777
+modifier: Kosmos
+tags: [[日语学习 Anki 配置]] ?
+title: Yomitan字典极其样式调整
+
+Yomitan 官方推荐的、适配性较好的字典多为日英或者日日的。而导入自制的日中词典，默认显示效果惨不忍睹，因此需要修改。
+
+Yomitan 开启「高级模式」可以导入自定义 CSS 样式表，操作方式如下：
+
+[img width="75%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407210051799.png]]
+
+!! 字典总体调整
+
+可以分为全局样式的调整和具体辞典样式，这里使全局部分。
+
+* 默认隐藏假名，悬浮现实假名
+
+```css
+ruby rt {
+    visibility: hidden;
+}
+
+ruby:hover rt {
+    visibility: visible;
+}
+```
+* 弹出界面「popup」和搜索界面「search」分别设置初始样式，我这里只设置了不同的字体大小。
+
+```css
+[data-page-type="popup"] {
+    font-size: 1.2rem;
+}
+
+[data-page-type="search"] {
+    font-size: 1.4rem;
+}
+```
+
+!! 小学馆日中第三版
+
+来自 B 站网友分享，可以在[[这里|https://www.123pan.com/s/gfleVv-G1c8H.html]]下载。
+
+经过我模仿官方样式得到效果如下：
+
+[img width="75%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407210213841.png]]
+
+红框由如下样式定义，其中两部分的间距是通过 `padding-left = 0.5em`，在左侧设置了一个空格宽度
+
+```css
+.gloss-sc-span[data-sc-tag="h3"] { }
+
+.gloss-sc-span[data-sc-sg_pinyin_h] { }
+```
+紫框棕色部分
+
+```css
+.gloss-sc-span[data-sc-tag="p"] span[data-sc-type="語義区分2"] {
+    color: saddlebrown;
+}
+```
+黄框是例句和翻译，例句部分如下
+
+```css
+[data-sc-tag="jae"] { }
+
+[data-sc-tag="jae"]::before {
+    content: "「";
+    color: darkgreen;
+    padding-left: 0.5em;
+}
+
+[data-sc-tag="jae"]::after {
+    content: "」";
+    color: darkgreen;
+}
+```
+
+这里的 `::before` 设置了 `padding-left: 0.5em` 以与上面的解释对齐。蓝色翻译部分的样式选择器为 
+
+```css
+[data-sc-tag="ja_cn"] { }
+```
+
+
+
+
+
+
+
+
+
+
+
+
