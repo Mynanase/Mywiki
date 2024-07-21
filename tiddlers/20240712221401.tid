@@ -1,16 +1,16 @@
-annotate-colour: dodgerblue
+annotate-colour: green
 created: 20240712141401350
 creator: Kosmos
-difficulty: 3.9899999999999998
-due: 20240718143141970
-elapsed_days: 0
+difficulty: 3.9994
+due: 20240817163359589
+elapsed_days: 9.084926145833334
 lapses: 0
-last_review: 20240712143141970
-modified: 20240721162937784
+last_review: 20240721163359589
+modified: 20240721163223807
 modifier: Kosmos
-reps: 1
-scheduled_days: 6
-stability: 5.8
+reps: 2
+scheduled_days: 27
+stability: 26.8897021245596
 state: 2
 tags: ? TiddlyWiki .
 title: 20240712221401
