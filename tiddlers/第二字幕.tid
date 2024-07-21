@@ -1,0 +1,19 @@
+created: 20240721161311751
+creator: Kosmos
+modified: 20240721162416985
+modifier: Kosmos
+tags: ?
+title: 第二字幕
+
+[[Mpvacious|MPV 的 Mpvacious 脚本]] 提供的一个小功能就是第二字幕。
+
+第二字幕通常设定为熟悉的语言，在默认观看视频时隐藏，鼠标悬浮于视频上部时显示。
+
+设置十分简单，首先需要该语言的字幕文件，然后在 `portable_conf/script-opts/subs2srs.conf` 下添加你的语言支持，多语言用逗号隔开
+
+```yaml
+secondary_sub_lang=cn
+```
+同时你也能设置字体的位置等等。最终呈现的效果如下：
+
+[img width="75%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407220022479.png]]

@@ -1,16 +1,16 @@
-annotate-colour: dodgerblue
+annotate-colour: green
 created: 20240710110537870
 creator: Kosmos
-difficulty: 3.9899999999999998
-due: 20240717070359215
-elapsed_days: 0
+difficulty: 3.9994
+due: 20240820162651843
+elapsed_days: 10.390886886574075
 lapses: 0
-last_review: 20240711070359215
+last_review: 20240721162651843
 modified: 20240711095532543
 modifier: Kosmos
-reps: 1
-scheduled_days: 6
-stability: 5.8
+reps: 2
+scheduled_days: 30
+stability: 29.621059730542445
 state: 2
 tags: [[配置 Rime 输入法]] 任务 ?
 title: 关于小鹤双拼

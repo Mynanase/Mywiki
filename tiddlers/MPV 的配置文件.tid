@@ -1,0 +1,23 @@
+created: 20240721105003545
+creator: Kosmos
+modified: 20240721110152925
+modifier: Kosmos
+tags: [[用 AJATT 学习日语]] ?
+title: MPV 的配置文件
+
+在 Windows 下，MPV 播放器配置文件有两种存放方式
+
+* 全局配置路径：`C:/Users/你的用户名/AppData/Roaming/mpv/`
+* 局部配置路径：`mpv.exe` 同目录下新建 `portable_config`
+
+好了，现在所有操作都在配置路径下完成。
+
+主要的配置文件一览：
+
+[img width="75%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407211859437.png]]
+
+* `mpv.conf`: 主要配置文件
+* `inoput.conf`: 键位绑定
+* `scripts`: 自定义脚本
+* `script-opts`: 脚本配置文件
+
