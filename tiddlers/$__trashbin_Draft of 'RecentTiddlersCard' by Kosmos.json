@@ -1,0 +1,11 @@
+{
+    "text": "\\define filteredCards(filter:\"[tag[任务]]\" limit:\"10\" columns:\"2\")\n<div class=\"card-grid\" style=\"grid-template-columns: repeat($columns$, 1fr);\">\n<$list filter=\"$filter$ +[!sort[created]limit[$limit$]]\">\n<div class=\"custom-card\">\n  <h3><$link to={{!!title}}><$view field=\"title\"/></$link></h3>\n  <div class=\"card-author\">\n    <$list filter=\"[<currentTiddler>has[creator]]\" variable=\"ignore\">\n      作者: <$view field=\"creator\"/>\n    </$list>\n  </div>\n  <div class=\"card-tags\">\n    <$list filter=\"[is[current]tags[]]\">\n      <span class=\"card-tag\"><$text text=<<currentTiddler>>/></span>\n    </$list>\n  </div>\n</div>\n</$list>\n</div>\n\\end\n\n!! 示例\n\n<$macrocall $name=\"filteredCards\" filter=\"[tag[任务]]\" limit=\"10\" columns=\"2\"/>\n\n<style>\n.card-grid {\n  display: grid;\n  gap: 16px;\n}\n\n.custom-card {\n  background-color: #f0f0f0;\n  border-radius: 8px;\n  padding: 16px;\n  box-shadow: 0 2px 4px rgba(0,0,0,0.1);\n}\n\n.custom-card h3 {\n  margin-top: 0;\n  margin-bottom: 8px;\n}\n\n.card-author {\n  font-size: 0.9em;\n  color: #666;\n  margin-bottom: 8px;\n}\n\n.card-tags {\n  margin-bottom: 8px;\n}\n\n.card-tag {\n  background-color: #e0e0e0;\n  padding: 4px 8px;\n  border-radius: 4px;\n  margin-right: 4px;\n  font-size: 0.9em;\n}\n\n@media (max-width: 768px) {\n  .card-grid {\n    grid-template-columns: 1fr !important;\n  }\n}\n</style>",
+    "created": "20240711162657948",
+    "creator": "Kosmos",
+    "title": "Draft of 'RecentTiddlersCard' by Kosmos",
+    "tags": "macrocall",
+    "modified": "20240711162931714",
+    "modifier": "Kosmos",
+    "draft.title": "RecentTiddlersCard",
+    "draft.of": "RecentTiddlersCard"
+}

@@ -1,0 +1,47 @@
+/* 正文 
+.tc-tiddler-body {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+*/
+
+/* 段落 */
+.tc-tiddler-body p {
+	font-family: var(--text-font);
+  margin-bottom: 1rem;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+/* 各级标题 */
+.tc-tiddler-body h1 {
+	font-family: var(--head-font);
+	font-size: 1.7rem;
+  font-weight: normal;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tc-tiddler-body h2 {
+	font-family: var(--head-font);
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 1.3em;
+  margin-bottom: 0.5rem;
+}
+
+.tc-tiddler-body h3 {
+	font-family: var(--head-font);
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-top: 1.2em;
+  margin-bottom: 0.5rem;
+}
+
+.tc-tiddler-body h4 {
+	font-family: var(--head-font);
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-top: 1.1em;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,13 @@
+/* 列表 */
+.tc-tiddler-body ul, .tc-tiddler-body ol {
+	font-size: 1rem;
+	font-family: var(--text-font);
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tc-tiddler-body li {
+	font-size: 1rem;
+	font-family: var(--text-font);
+  margin-bottom: 0.5rem;
+}

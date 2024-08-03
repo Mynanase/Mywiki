@@ -1,0 +1,38 @@
+annotate-colour: dodgerblue
+created: 20240712141954806
+creator: Kosmos
+difficulty: 3.9899999999999998
+due: 20240718143244719
+elapsed_days: 0
+lapses: 0
+last_review: 20240712143244719
+modified: 20240712142232383
+modifier: Kosmos
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: [[TiddlyWiki 语法]] ?
+title: 用卡片罗列某个筛选器的结果
+
+```
+\define filteredCards(filter:"[tag[任务]]" limit:"10" columns:"2")
+<div class="card-grid" style="grid-template-columns: repeat($columns$, 1fr);">
+<$list filter="$filter$ +[!sort[created]limit[$limit$]]">
+<div class="custom-card">
+  <h3><$link to={{!!title}}><$view field="title"/></$link></h3>
+  <div class="card-author">
+    <$list filter="[<currentTiddler>has[creator]]" variable="ignore">
+      作者: <$view field="creator"/>
+    </$list>
+  </div>
+  <div class="card-tags">
+    <$list filter="[is[current]tags[]]">
+      <span class="card-tag"><$text text=<<currentTiddler>>/></span>
+    </$list>
+  </div>
+</div>
+</$list>
+</div>
+\end
+```

@@ -1,8 +1,8 @@
 created: 20190420034215366
 creator: Kosmos
-modified: 20240706092127048
+modified: 20240709165445092
 modifier: Kosmos
 title: $:/themes/tiddlywiki/vanilla/settings/fontfamily
 type: text/vnd.tiddlywiki
 
-'Fira Code',-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+"Inconsolata","思源黑体 CN Light",'Fira Code',-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"

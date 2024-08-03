@@ -1,0 +1,17 @@
+caption: {{$:/plugins/linonetwo/zx-script/zx-icon}} {{$:/plugins/linonetwo/zx-script/zx-button-caption}}
+created: 20240711135809224
+creator: Kosmos
+description: Run tiddler as ZX Script
+modified: 20240711135809224
+modifier: Kosmos
+short-caption: zx script executor
+tags: $:/tags/ViewToolbar
+title: $:/plugins/linonetwo/zx-script/ViewToolbarButton
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<$list filter="[all[current]!has[plugin-type]]">
+<$list filter="[all[current]field:type[application/javascript]] :else[all[current]search:text[```]]">
+  <$execute-zx-script content={{!!text}} title={{!!title}} type={{!!type}} />
+</$list>
+</$list>

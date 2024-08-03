@@ -1,0 +1,6 @@
+created: 20240711135809225
+creator: Kosmos
+list: $:/core/ui/Buttons/info $:/plugins/kookma/favorites/ui/buttons/add-remove $:/plugins/Gk0Wk/page-toc/PageTOCButton $:/plugins/kookma/utility/ui/Buttons/DraggableLink $:/plugins/linonetwo/intention-tower-knowledge-graph/Buttons/ToggleProject $:/plugins/tidme/fsrs4tw/core/ui/Buttons/unfold $:/plugins/linonetwo/tw-whiteboard/tiddlywiki-ui/ViewToolbar/Buttons/OpenInFullScreenWhiteBoardButton $:/plugins/tidme/fsrs4tw/core/ui/Buttons/exclude $:/core/ui/Buttons/fold $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/new-here $:/core/ui/Buttons/edit $:/core/ui/Buttons/close $:/plugins/kookma/trashbin/ui/toolbar-button $:/plugins/linonetwo/open-in-external-app/ViewToolbarButton/OpenInExternalApp $:/plugins/linonetwo/slate-write/ui/ViewToolbar/Buttons/edit-wysiwyg $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/plugins/bimlas/locator/viewtemplate/open-in-sidebar $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/plugins/linonetwo/zx-script/ViewToolbarButton $:/plugins/tiddlywiki/qrcode/ViewToolbarButton $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold-bar
+modified: 20240711140154762
+modifier: Kosmos
+title: $:/tags/ViewToolbar

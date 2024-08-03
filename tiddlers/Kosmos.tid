@@ -1,0 +1,20 @@
+annotate-colour: dodgerblue
+created: 20240709165244951
+creator: Kosmos
+difficulty: 3.9899999999999998
+due: 20240717075758069
+elapsed_days: 0
+lapses: 0
+last_review: 20240711075758069
+modified: 20240711172056623
+modifier: Kosmos
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: Index
+title: Kosmos
+
+!! 最近在做
+
+<$macrocall $name="filteredCards" filter="[tag[任务]]" limit="20" columns="3"/>

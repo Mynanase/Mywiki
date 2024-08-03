@@ -1,0 +1,9 @@
+{
+    "created": "20240711163822686",
+    "creator": "Kosmos",
+    "text": "<$list filter=\"[tag[任务]limit[5]]\">\n<div style=\"border: 1px solid #ccc; margin: 10px; padding: 10px;\">\n  <h3><$link to={{!!title}}><$view field=\"title\"/></$link></h3>\n  <p><$view field=\"text\"/></p>\n</div>\n</$list>",
+    "title": "Test",
+    "tags": "?",
+    "modified": "20240711163843958",
+    "modifier": "Kosmos"
+}

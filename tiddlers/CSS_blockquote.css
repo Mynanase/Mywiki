@@ -1,0 +1,18 @@
+blockquote {
+	font-family: var(--text-font);
+	font-style: italic;
+	font-size: 1rem;
+	line-height: 1.5;
+  border-left: 4px solid #37352f !important;
+  padding: .4rem 0rem .4rem 1.2rem;
+  margin-left: 0;
+	margin-right: 0;
+  color: var(--blockquote-text-color, #666666);
+	background-color: #f7f7f7;
+}
+
+/*  */
+blockquote > div {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}

@@ -1,0 +1,25 @@
+annotate-colour: dodgerblue
+created: 20240712135249192
+creator: Kosmos
+difficulty: 3.9899999999999998
+due: 20240718143055387
+elapsed_days: 0
+lapses: 0
+last_review: 20240712143055387
+modified: 20240712143054767
+modifier: Kosmos
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: ? windows .
+title: 20240712215249
+
+windows 使用 `mklink` 创建软<<C 连接>>
+
+```bash
+mklink \D "PathA\YourName" "PathB\FolderName"
+```
+
+# `\D` 表示创建一个<<C 目录>>的符号<<C 链接>>
+# 这会在 <<C `PathA`>> 创建一个软链接 <<C `YourName`>> 指向 <<C `PathB\FolderName`>>
