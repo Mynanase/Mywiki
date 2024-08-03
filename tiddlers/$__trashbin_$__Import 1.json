@@ -1,0 +1,7 @@
+{
+    "title": "$:/Import",
+    "type": "application/json",
+    "plugin-type": "import",
+    "status": "pending",
+    "text": "{\n    \"tiddlers\": {\n        \"Untitled\": {\n            \"title\": \"Untitled\",\n            \"text\": \"https://www.123pan.com/s/gfleVv-G1c8H.html\"\n        }\n    }\n}"
+}

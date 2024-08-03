@@ -1,0 +1,60 @@
+annotate-colour: dodgerblue
+created: 20240721071126357
+creator: Kosmos
+difficulty: 3.9899999999999998
+due: 20240727170908325
+elapsed_days: 0
+lapses: 0
+last_review: 20240721170908325
+modified: 20240721093652393
+modifier: Kosmos
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: [[日语学习 Anki 配置]] ?
+title: Yomitan字典配置
+
+!!! Profile
+
+可以对不同的情况设置不同配置方案。
+
+`Default profile` 设置默认的启用的方案
+
+`Editing profile` 选中某个配置即刻开始编辑。
+
+点击 `configure profiles` 可以管理配置。点击 `Conditions` 下的蓝色数字，可以设置快捷键在不同配置间跳转。
+
+!!! Dictionaries
+
+在这个界面可以导入各种类型的字典，词典的配置清单：
+
+# 日英：Jitendex、JMdict 和 JMnedict（用于专有名词）
+# 日中：「小学馆中日辞典第三版」和「新世纪日汉双解大辞典」
+# 文法：「日本語文法辞典（全集）」
+# 汉字：「KANJIDIC (English)」
+# 词频：「JPDB」
+
+要开启词频分析，需要在 `Frequency sorting dictionary` 中选中 `JPDB`。
+
+!!! Popup Behavior
+
+在使用词典的过程中，查词界面也会遇到生词，开启 `Allow scanning search page content` 和 `Allow scanning popup content` 就能这样进行嵌套查词，同时在字选项开启 `Allow scanning popup source terms` 并可设置最大深度 `Maximum number of child popups`。
+
+!!! Appearance
+
+除了自定义 CSS 选项 `Configure custom CSS…` 需要配置，其他保持默认即可。具体[[配置方法|Yomitan字典极其样式调整]]包括鼠标悬浮显示假名，汉字界面简化，特定字典的样式修改。
+
+`Configure collapsible dictionaries…` 可以把不成用的字典设置折叠。
+
+!!! Popup Position & Size
+
+设置弹窗的位置和大小等...
+
+!!! Anki
+
+* `Card tags` 设置默认标签
+* 端口号与 Anki Connection 保持一致
+* Anki Cards 格式设置如下
+
+[img width="75%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407211641220.png]]

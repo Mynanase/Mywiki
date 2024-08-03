@@ -1,8 +1,8 @@
 created: 20240715111912394
 creator: Kosmos
-modified: 20240715114248215
+modified: 20240721071200608
 modifier: Kosmos
 title: $:/config/RelinkOnRename
 type: text/vnd.tiddlywiki
 
-no
+yes

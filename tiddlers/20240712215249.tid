@@ -1,18 +1,18 @@
-annotate-colour: dodgerblue
+annotate-colour: green
 created: 20240712135249192
 creator: Kosmos
-difficulty: 3.9899999999999998
-due: 20240718143055387
-elapsed_days: 0
+difficulty: 3.9994
+due: 20240817162913827
+elapsed_days: 9.082157858796297
 lapses: 0
-last_review: 20240712143055387
-modified: 20240712143054767
+last_review: 20240721162913827
+modified: 20240721162913152
 modifier: Kosmos
-reps: 1
-scheduled_days: 6
-stability: 5.8
+reps: 2
+scheduled_days: 27
+stability: 26.88383809533983
 state: 2
-tags: ? windows .
+tags: windows . ?
 title: 20240712215249
 
 windows 使用 `mklink` 创建软<<C 连接>>

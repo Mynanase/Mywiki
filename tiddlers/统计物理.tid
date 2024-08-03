@@ -1,17 +1,17 @@
 annotate-colour: dodgerblue
 created: 20240710055428455
 creator: Kosmos
-difficulty: 5.869999999999999
-due: 20240713075916358
-elapsed_days: 1.0608375925925926
+difficulty: 5.009199999999998
+due: 20240823171102815
+elapsed_days: 10.3831765625
 lapses: 0
-last_review: 20240711075916358
-modified: 20240710055521568
+last_review: 20240721171102815
+modified: 20240721171038949
 modifier: Kosmos
-reps: 2
-scheduled_days: 2
-stability: 0.6
+reps: 3
+scheduled_days: 33
+stability: 33.372566530444445
 state: 2
-tags: 学物理 项目 任务
+tags: 学物理 项目 任务 ?
 title: 统计物理
 tmo_taskState: New

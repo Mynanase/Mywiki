@@ -1,0 +1,61 @@
+annotate-colour: dodgerblue
+created: 20240721110325673
+creator: Kosmos
+difficulty: 3.9899999999999998
+due: 20240727170604483
+elapsed_days: 0
+lapses: 0
+last_review: 20240721170604483
+modified: 20240721162519827
+modifier: Kosmos
+reps: 1
+scheduled_days: 6
+stability: 5.8
+state: 2
+tags: [[用 AJATT 学习日语]] ?
+title: MPV 的 Mpvacious 脚本
+
+> [[Mpvacious|https://github.com/Ajatt-Tools/mpvacious]] 是 MPV 播放器的一个脚本，能够通过简单的几个指令快速导入截屏、音频和视频（GIF）到 Anki，辅助制卡。
+
+!! 安装
+在 [[Mpvacious 的 github 主页|https://github.com/Ajatt-Tools/mpvacious]] 下载脚本和对应的配置文件，按要求放入[[对应的文件夹|MPV 的配置文件]]即可。
+
+!! 配置
+将 `mpv.conf` 复制到配置目录；将 `subs2srs.conf` 复制到 `script-opts/`
+
+官方给的配置文件 `subs2srs.conf` 需要修改一部分。
+
+[img width="75%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202407211928171.png]]
+
+* 如果显示缺少组件，开启 ffmpeg `use_ffmpeg=yes` 
+
+* 默认截屏质量较低，可以调整 `animated_snapshot_quality` 和 `snapshot_quality`
+
+
+
+!! 使用
+官方的键位绑定为：
+
+```
+a            高级模式
+
+Ctrl+g       动画模式。开启后静态截屏变为 GIF
+Ctrl+n       创建条目。在目标目录下创建带有音频和截图的卡
+Ctrl+m       在最新的一张卡上添加音频和截图（最推荐）
+Ctrl+M       覆盖最新的一张卡
+Ctrl+c       选择导出多句字幕，适用于多句话的句子
+Ctrl+t       开启自动副词字幕
+```
+一般按 `a` 进入高级模式之后，指令 `ctrl` 可以省略
+
+我的一般使用场景为：
+
+# `a` 进入高级模式
+# `g` 开启动画模式
+# `t` 开启自动复制字幕
+# 打开 Yomitan 的 `search page`，开启监控剪切板
+# 遇到需要收藏的句子，暂停视频
+# 在 `search page` 选择不懂的词，让后添加笔记，这是会在 Anki 新建一张卡
+# `m` 添加音频，截屏（或视频）到该笔记，如果设置了[[第二字幕]]，还会同时添加翻译到 `SentEng` 字段
+# 如果有多个句子，第一个句子开始时按 `c`，句子截取完毕时暂停
+# 之后同第 5 步
