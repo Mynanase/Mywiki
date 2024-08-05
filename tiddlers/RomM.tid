@@ -1,0 +1,39 @@
+created: 20240805063532022
+creator: Kosmos
+modified: 20240805070547235
+modifier: Kosmos
+tags: ? docker
+title: RomM
+
+> RomM（Rom Manager） 是一个自托管的 Rom 管理器，能够用于收藏，管理 Rom，并且支持通过 EmulatorJS 直接从浏览器游玩游戏。
+
+!! 准备工作
+
+RomM 只是从多个游戏库搜刮元数据，而在此之前，需要获取各个平台的 `API Key`
+
+* [[IGDB API Key 获取]]
+* [[MobyGames API Key 获取]]
+* [[Steam API Key 获取]]
+
+!! 部署
+
+基本部署工作参考[[官网|https://github.com/rommapp/romm]]即可
+
+部署完成后，如遇到无法登录，在环境变量中添加
+
+```yaml
+DISABLE_CSRF_PROTECTION=true
+```
+
+我在 Windows 中部署时，出现数据库连接错误：
+
+```bash
+Duplicate column name 'p_name'
+```
+
+则需要更换数据库镜像：
+
+```yaml
+romm-db:
+	image: linuxserver/mariadb:10.11.8
+```
