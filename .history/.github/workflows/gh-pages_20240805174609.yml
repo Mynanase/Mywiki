@@ -36,8 +36,6 @@ jobs:
         run: npm install
       - name: Building online versions of web pages
         run: npm run buildonline
-      - name: Generate sitemap
-        run: node generate-sitemap.js
       - name: Download verification file
         run: mv ./search/* ./public-dist/
       - name: Building downloadable offline versions of web pages
