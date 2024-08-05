@@ -36,6 +36,8 @@ jobs:
         run: npm install
       - name: Building online versions of web pages
         run: npm run buildonline
+      - name: Download verification file
+        run: mv googleded6bd0febd13202.html ./public-dist/
       - name: Building downloadable offline versions of web pages
         run: npm run buildoffline
       - name: Workbox offline cache
