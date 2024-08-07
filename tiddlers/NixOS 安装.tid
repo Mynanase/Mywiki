@@ -1,0 +1,36 @@
+created: 20240806223422170
+creator: Kosmos
+modified: 20240807025440354
+modifier: Kosmos
+tags: NixOS 任务
+title: NixOS 安装
+tmo_actualStartTime: 20240807025440354
+tmo_priority: High
+tmo_taskState: Running
+
+进入 Live CD 后
+
+!! 联网
+图形化界面的 //联网// 比较方便，对于非图形化界面，按照一下步骤：
+
+```bash
+sudo systemctl start wpa_supplicant  # 启动服务
+sudo wpa_cli  # 进入 wpa 命令行交互模式
+```
+这样就进入了可交互界面，然后连接互联网：
+
+```bash
+add_network
+0
+set_network 0 ssid "你家 WIFI 的 SSID"
+OK
+set_network 0 psk "WIFI 密码"
+OK
+set_network 0 key_mgmt WPA-PSK（或者其他加密方式）
+OK
+enable_network 0
+OK
+```
+
+!! 分区与格式化
+
