@@ -1,6 +1,6 @@
 created: 20240806223422170
 creator: Kosmos
-modified: 20240807025440354
+modified: 20240809191727859
 modifier: Kosmos
 tags: NixOS 任务
 title: NixOS 安装
@@ -34,3 +34,69 @@ OK
 
 !! 分区与格式化
 
+我习惯使用 `cfdisk` 进行分盘（以 `/dev/nvme0n1` 为例）：
+
+```bash
+cfdisk /dev/nvme0n1
+```
+主要分出三个分区
+
+* nvme0n1p2  1G  EFI
+* nvme0n1p5  17.2G  swap
+* nvme0n1p3  剩余空间  linux file
+
+之后使用命令格式化分区。格式化 EFI
+
+```bash
+mkfs.fat -F32 /dev/nvme0n1p2
+```
+格式化根目录
+
+```bash
+mkfs.btrfs -L nixos /dev/nvme0n1p3
+```
+格式化交换分区
+
+```bash
+mkswap -L swap /dev/nvme0n1p5
+```
+挂在根目录后，创建几个子卷：
+
+```bash
+mount /dev/nvme0n1p3 /mnt
+
+btrfs subvolume create /mnt/root
+btrfs subvolume create /mnt/home
+btrfs subvolume create /mnt/nix
+```
+取消挂载根目录，因为我们要重新挂载子卷：
+
+```bash
+mount -o compress=zstd,subvol=root /dev/nvme0n1p3 /mnt
+mkdir /mnt/{home,nix,boot}
+mount -o compress=zstd,subvol=home /dev/nvme0n1p3 /mnt/home
+mount -o compress=zstd,noatime,subvol=nix /dev/nvme0n1p3 /mnt/nix
+mount /dev/nvme0n1p2 /mnt/boot
+swapon /dev/nvme0n1p5
+```
+
+!! 部署系统
+
+使用如下命令生成基础配置文件
+
+```bash
+nixos-generate-config --root /mnt
+```
+文件位于 `/mnt/etc/nixos/`，可自行修改。修改完成之后，通过如下命令部署系统：
+
+```bash
+sudo nixos-install --option substituters "https://mirror.sjtu.edu.cn/nix-channels/store"
+```
+部署之后进入系统，修改用户
+
+```bash
+nixos-enter  # 进入部署好的系统，类似 arch 的 chroot
+passwd root  # 重置 root 密码
+useradd -m -G wheel kosmos # 添加普通用户，并加入 wheel 组
+passwd kosmos
+```
