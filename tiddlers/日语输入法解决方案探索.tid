@@ -1,0 +1,18 @@
+created: 20240814022946415
+creator: Kosmos
+modified: 20240814035816483
+modifier: Kosmos
+tags: 2024年08月14日 ?
+title: 日语输入法解决方案探索
+
+!!! 桌面端
+可选的有：
+
+* window 自带的日语输入法
+* Rime：jp_sela
+
+!!! 移动端
+
+* 小企鹅输入法 + jp_sela
+* 小企鹅输入法 + Anthy 插件（正在积极更新，后续可能支持中文九宫格和日语十二宫格）
+* Mozc：十二宫格，貌似没有在维护了
