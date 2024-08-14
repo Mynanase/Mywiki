@@ -1,0 +1,38 @@
+created: 20240814004221579
+creator: Kosmos
+modified: 20240814011931801
+modifier: Kosmos
+tags: [[配置 Rime 输入法]] ?
+title: 制作 rime 专用词库
+
+!!! 准备
+* 下载 [[深蓝词库转换|https://github.com/studyzy/imewlconverter]]
+* 下载需要的 [[搜狗细胞词库|https://pinyin.sogou.com/dict/]]
+
+!!! 转换
+目标是 Rime 支持的字典，打开 `.exe` 程序，按下图设置
+
+[img width="75%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202408140851010.png]]
+
+!!! 后处理
+上面的步骤得到的只是词语-拼音的对照，还需要进行一定的后处理。
+
+首先，打开检查编码是否为 `UTF-8`。
+
+由于我所使用的「[[墨奇双拼|https://github.com/gaboolic/rime-shuangpin-fuzhuma]]」方案只需要单独的词语，因此，先用正则搜索语法把拼音去除，打开 `Sublime`，输入 `\t.*` 以匹配词语之后的拼音，然后替换为空白。
+
+添加字典信息如下至字典正文内容前：
+
+```
+---
+name: dict_name
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+```
+并将文件名改为 `dict_name.dict.yaml`。
+
+如何引用呢？以我的字典为例，在拓展词典配置文件上，引用如下
+
+[img width="50%"[https://obsidian-1317142608.cos.ap-nanjing.myqcloud.com/obsidian/202408140916043.png]]
