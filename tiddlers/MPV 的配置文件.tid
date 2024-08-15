@@ -1,16 +1,16 @@
-annotate-colour: dodgerblue
+annotate-colour: green
 created: 20240721105003545
 creator: Kosmos
-difficulty: 3.9899999999999998
-due: 20240727170644800
-elapsed_days: 0
+difficulty: 3.9994
+due: 20241010125210046
+elapsed_days: 24.823208865740742
 lapses: 0
-last_review: 20240721170644800
+last_review: 20240815125210046
 modified: 20240721110152925
 modifier: Kosmos
-reps: 1
-scheduled_days: 6
-stability: 5.8
+reps: 2
+scheduled_days: 56
+stability: 55.70823791905237
 state: 2
 tags: [[用 AJATT 学习日语]] ?
 title: MPV 的配置文件

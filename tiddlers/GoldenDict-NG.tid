@@ -1,16 +1,16 @@
-annotate-colour: dodgerblue
+annotate-colour: green
 created: 20240721093741877
 creator: Kosmos
 difficulty: 4.93
-due: 20240727153343045
-elapsed_days: 2.937637141203704
+due: 20240921125055749
+elapsed_days: 21.886952604166666
 lapses: 0
-last_review: 20240724153343045
+last_review: 20240815125055749
 modified: 20240721104921066
 modifier: Kosmos
-reps: 2
-scheduled_days: 3
-stability: 2.4
+reps: 3
+scheduled_days: 37
+stability: 36.99383275699851
 state: 2
 tags: [[用 AJATT 学习日语]] ?
 title: GoldenDict-NG

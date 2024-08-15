@@ -1,16 +1,16 @@
-annotate-colour: orange
+annotate-colour: green
 created: 20240712141954806
 creator: Kosmos
-difficulty: 4.8508
-due: 20240802164900628
-elapsed_days: 9.094628564814816
+difficulty: 4.851591999999999
+due: 20241010125418165
+elapsed_days: 24.837008530092593
 lapses: 0
-last_review: 20240721164900628
+last_review: 20240815125418165
 modified: 20240712142232383
 modifier: Kosmos
-reps: 2
-scheduled_days: 12
-stability: 11.921973119023216
+reps: 3
+scheduled_days: 56
+stability: 56.35635979730061
 state: 2
 tags: [[TiddlyWiki 语法]] ?
 title: 用卡片罗列某个筛选器的结果

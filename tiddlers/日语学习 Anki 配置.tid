@@ -1,16 +1,16 @@
 annotate-colour: dodgerblue
 created: 20240715122749663
 creator: Kosmos
-difficulty: 3.9899999999999998
-due: 20240727171116301
-elapsed_days: 0
+difficulty: 3.148
+due: 20241229125558994
+elapsed_days: 24.822716365740742
 lapses: 0
-last_review: 20240721171116301
+last_review: 20240815125558994
 modified: 20240718151229184
 modifier: Kosmos
-reps: 1
-scheduled_days: 6
-stability: 5.8
+reps: 2
+scheduled_days: 136
+stability: 136.0584707814466
 state: 2
 tags: [[用 AJATT 学习日语]] 任务 anki
 title: 日语学习 Anki 配置

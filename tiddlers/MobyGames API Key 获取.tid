@@ -1,7 +1,17 @@
+annotate-colour: green
 created: 20240805065918021
 creator: Kosmos
+difficulty: 4.93
+due: 20240815130531220
+elapsed_days: 0
+lapses: 0
+last_review: 20240815125531220
 modified: 20240805070507260
 modifier: Kosmos
+reps: 1
+scheduled_days: 0
+stability: 2.4
+state: 1
 tags: ?
 title: MobyGames API Key 获取
 

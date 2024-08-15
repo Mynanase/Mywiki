@@ -1,16 +1,16 @@
-annotate-colour: dodgerblue
+annotate-colour: green
 created: 20240715123122737
 creator: Kosmos
 difficulty: 4.93
-due: 20240724170531718
-elapsed_days: 0.010890856481481482
+due: 20240924125047781
+elapsed_days: 24.82310255787037
 lapses: 0
-last_review: 20240721170531718
+last_review: 20240815125047781
 modified: 20240715123142960
 modifier: Kosmos
-reps: 2
-scheduled_days: 3
-stability: 2.4
+reps: 3
+scheduled_days: 40
+stability: 39.74444469064921
 state: 2
 tags: [[日语学习 Anki 配置]] ? anki
 title: AnkiMorphs

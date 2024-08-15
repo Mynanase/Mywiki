@@ -1,16 +1,16 @@
-annotate-colour: green
+annotate-colour: dodgerblue
 created: 20240710055043996
 creator: Kosmos
-difficulty: 6.791199999999999
-due: 20240730171112310
-elapsed_days: 10.353338356481482
+difficulty: 5.921187999999998
+due: 20241111125616342
+elapsed_days: 24.822963333333334
 lapses: 0
-last_review: 20240721171112310
+last_review: 20240815125616342
 modified: 20240710055102646
 modifier: Kosmos
-reps: 4
-scheduled_days: 9
-stability: 8.92780890057203
+reps: 5
+scheduled_days: 88
+stability: 88.48522825061029
 state: 2
 tags: 意义 学物理
 title: 学数学
