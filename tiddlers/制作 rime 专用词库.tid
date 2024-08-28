@@ -2,16 +2,16 @@ annotate-colour: green
 created: 20240814004221579
 creator: Kosmos
 difficulty: 4.93
-due: 20240815130506944
-elapsed_days: 0
+due: 20240830153002434
+elapsed_days: 13.107586689814815
 lapses: 0
-last_review: 20240815125506944
+last_review: 20240828153002434
 modified: 20240814011931801
 modifier: Kosmos
-reps: 1
-scheduled_days: 0
+reps: 2
+scheduled_days: 2
 stability: 2.4
-state: 1
+state: 2
 tags: [[配置 Rime 输入法]] ?
 title: 制作 rime 专用词库
 

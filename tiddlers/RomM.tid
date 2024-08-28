@@ -2,16 +2,16 @@ annotate-colour: green
 created: 20240805063532022
 creator: Kosmos
 difficulty: 4.93
-due: 20240815130548215
-elapsed_days: 0
+due: 20240830153040262
+elapsed_days: 13.107546828703704
 lapses: 0
-last_review: 20240815125548215
+last_review: 20240828153040262
 modified: 20240805070547235
 modifier: Kosmos
-reps: 1
-scheduled_days: 0
+reps: 2
+scheduled_days: 2
 stability: 2.4
-state: 1
+state: 2
 tags: ? docker
 title: RomM
 

@@ -2,15 +2,15 @@ annotate-colour: green
 created: 20240805070510525
 creator: Kosmos
 difficulty: 4.93
-due: 20240815130526707
-elapsed_days: 0
+due: 20240830153017555
+elapsed_days: 13.107532951388889
 lapses: 0
-last_review: 20240815125526707
+last_review: 20240828153017555
 modified: 20240805070605954
 modifier: Kosmos
-reps: 1
-scheduled_days: 0
+reps: 2
+scheduled_days: 2
 stability: 2.4
-state: 1
+state: 2
 tags: ?
 title: IGDB API Key 获取
