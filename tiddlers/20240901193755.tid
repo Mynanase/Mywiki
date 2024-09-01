@@ -1,0 +1,40 @@
+created: 20240901113755561
+modified: 20240901122313948
+tags: ? NixOS
+title: 20240901193755
+type: text/vnd.tiddlywiki
+
+!! rclone 配置文件加密
+
+rclone 在创建配置文件之后可以对其进行加密，密码为自定义的一段字符串。如果是直接挂载的话，大不了每次访问配置文件都输入密码。但我为一个常用盘创建了一个 systemd 挂载服务，这就需要在 systemd 输入密码，好在 rclone 可以通过环境变量 `RCLONE_CONFIG_PASS` 传递，在环境变量用明文声明总归是不好，于是就想用密码管理器 sops-nix 配置。
+
+!! 用 sops-nix 加密 rclone 配置密钥
+
+根据 sops-nix 的处理逻辑，他会在指定位置为每个密码生成一个文件，因而只能引用文件，而不能直接读取密码本体。所以比较好的办法直接以 `EnvironmentFile` 的形式引用密码文件。
+
+首先，直接将变量名和密码加密在一起：
+
+```yaml
+rlcone_conf: RCLONE_CONFIG_PASS=<your-secret>
+```
+
+加密之后，在 nixos 中引用：
+
+```nix
+  sops.secrets.rclone_conf = {
+    sopsFile = ../.secrets/rclone.yaml; # 指向包含密钥的sops文件
+  };
+```
+
+然后在 systemd 服务中将 `EnvironmentFile` 设置为路径 `config.sops.secrets.rclone_conf.path`。
+
+```nix
+systemd.user.services.jianguoyun = {
+	Unit = { ... };
+
+	Service = {
+		ExecStart = ''...'';
+		Environment = ["PATH=/run/wrappers/bin/:$PATH"];
+		EnvironmentFile = "${config.sops.secrets.rclone_conf.path}";
+	};
+```
