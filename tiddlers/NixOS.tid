@@ -6,12 +6,12 @@ due: 20240815130852184
 elapsed_days: 0
 lapses: 0
 last_review: 20240815125852184
-modified: 20240806223417438
+modified: 20240912095536098
 modifier: Kosmos
 reps: 1
 scheduled_days: 0
 stability: 2.4
 state: 1
-tags: Linux 项目 任务
+tags: Linux 任务 意义
 title: NixOS
 tmo_taskState: New
