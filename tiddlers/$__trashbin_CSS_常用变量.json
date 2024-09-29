@@ -1,0 +1,12 @@
+{
+    "title": "CSS:常用变量",
+    "text": ":root {\r\n\tfont-size: 16px;\r\n\t\r\n\t--title-font: \"Inconsolata\",\"思源黑体 CN Light\";\r\n\t--text-font: \"QiushuiShotai Bright\";\r\n\t--mono-font: \"Inconsolata\",\"思源黑体 CN Light\";\r\n\t--head-font: \"975 圆体\";\r\n\t\t\r\n\t--code-bg-color: #f7f6f3;\r\n\t--link-color: #6c7e8c;\r\n}",
+    "created": "20240709164911002",
+    "creator": "Kosmos",
+    "modified": "20240709194201940",
+    "modifier": "Kosmos",
+    "tags": "CSS样式 $:/tags/Stylesheet",
+    "type": "text/css",
+    "revision": "0",
+    "bag": "default"
+}
